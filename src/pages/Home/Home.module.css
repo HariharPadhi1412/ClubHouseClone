@@ -1,0 +1,22 @@
+.text {
+    margin-top: 10px;
+    font-size: 22px;
+    line-height: 1.6rem;
+    color: #c4c5c5;
+    margin-bottom: 30px;
+}
+
+.cardWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.siginwrapper {
+    margin-top: 20px;
+}
+
+.inviteText {
+    color: #0077ff;
+}
