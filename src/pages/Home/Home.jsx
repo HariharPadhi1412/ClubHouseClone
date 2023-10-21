@@ -16,7 +16,7 @@ const Home = () => {
 
   const handleClick = () => {
     navigate("/register");
-    console.log("click");
+    // console.log("click");
   };
 
   return (
@@ -32,7 +32,7 @@ const Home = () => {
         </div>
         <div className={styles.siginwrapper}>
           <span className={styles.inviteText}>Have an invite text?</span>
-          <Link style={signinLinkTextStyle} to={"/"}>
+          <Link style={signinLinkTextStyle} to={"/login"}>
             Sign in
           </Link>
         </div>
